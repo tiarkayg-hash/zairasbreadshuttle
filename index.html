@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Professional shuttle and passenger transport services in South Africa. Book reliable airport transfers, corporate transport, and group shuttles with ease." />
-  <meta name="keywords" content="shuttle services, passenger transport, airport transfers, South Africa, Nelspruit, corporate transport, group transport, reliable transport solutions" />
+  <meta name="description" content="Professional shuttle and passenger transport services in South Africa. Book reliable airport transfers, corporate transport, and group shuttles with ease."[cite: 1] />
+  <meta name="keywords" content="shuttle services, passenger transport, airport transfers, South Africa, Nelspruit, corporate transport, group transport, reliable transport solutions"[cite: 1] />
   <meta name="theme-color" content="#0B7F88" />
   <title>Zairasbread Shuttle Services | Reliable Transport Solutions South Africa</title>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -21,7 +21,7 @@
 
     .page-section {
       display: none;
-      animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
 
     .page-section.active {
@@ -31,7 +31,7 @@
     @keyframes fadeIn {
       from {
         opacity: 0;
-        transform: translateY(12px);
+        transform: translateY(8px);
       }
       to {
         opacity: 1;
@@ -41,45 +41,20 @@
 
     @keyframes pulse-slow {
       0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.06); }
+      50% { transform: scale(1.05); }
     }
 
     .whatsapp-float {
       position: fixed;
-      bottom: 30px;
-      right: 30px;
+      bottom: 24px;
+      right: 24px;
       z-index: 50;
       animation: pulse-slow 2.5s infinite;
     }
 
-    .hero-gradient {
-      background: linear-gradient(135deg, #0B7F88 0%, #065A63 50%, #04434c 100%);
+    .hero-bg {
+      background: linear-gradient(135deg, rgba(11, 127, 136, 0.9), rgba(6, 90, 99, 0.92)), url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
       position: relative;
-      overflow: hidden;
-    }
-
-    .hero-gradient::before {
-      content: '';
-      position: absolute;
-      top: -40%;
-      right: -15%;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(245, 166, 35, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
-    }
-
-    .hero-gradient::after {
-      content: '';
-      position: absolute;
-      bottom: -30%;
-      left: -10%;
-      width: 400px;
-      height: 400px;
-      background: radial-gradient(circle, rgba(245, 166, 35, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
     }
 
     .glass-card {
@@ -89,43 +64,43 @@
     }
 
     .service-card {
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      transition: all 0.25s ease;
       border-top: 3px solid transparent;
     }
 
     .service-card:hover {
-      transform: translateY(-6px);
+      transform: translateY(-4px);
       border-top-color: #F5A623;
-      box-shadow: 0 10px 30px rgba(11, 127, 136, 0.1);
+      box-shadow: 0 8px 20px rgba(11, 127, 136, 0.08);
     }
 
     .btn-primary {
       background: linear-gradient(135deg, #0B7F88 0%, #0a6c78 100%);
       color: white;
-      padding: 0.95rem 2rem;
-      border-radius: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
       font-weight: 600;
-      font-size: 0.95rem;
-      box-shadow: 0 4px 15px rgba(11, 127, 136, 0.3);
-      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      box-shadow: 0 3px 10px rgba(11, 127, 136, 0.25);
+      transition: all 0.2s ease;
       border: none;
       cursor: pointer;
     }
 
     .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(11, 127, 136, 0.4);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px rgba(11, 127, 136, 0.35);
     }
 
     .btn-secondary {
       background: rgba(255, 255, 255, 0.12);
       border: 2px solid rgba(255, 255, 255, 0.3);
       color: white;
-      padding: 0.95rem 2rem;
-      border-radius: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
       font-weight: 600;
-      font-size: 0.95rem;
-      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
       cursor: pointer;
       backdrop-filter: blur(8px);
     }
@@ -133,30 +108,29 @@
     .btn-secondary:hover {
       background: rgba(255, 255, 255, 0.2);
       border-color: rgba(255, 255, 255, 0.5);
-      transform: translateY(-2px);
     }
 
     .btn-accent {
       background: #F5A623;
       color: white;
-      padding: 0.95rem 2rem;
-      border-radius: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
       font-weight: 600;
-      font-size: 0.95rem;
-      box-shadow: 0 4px 15px rgba(245, 166, 35, 0.3);
-      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      box-shadow: 0 3px 10px rgba(245, 166, 35, 0.25);
+      transition: all 0.2s ease;
       border: none;
       cursor: pointer;
     }
 
     .btn-accent:hover {
       background: #e0951b;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(245, 166, 35, 0.4);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px rgba(245, 166, 35, 0.35);
     }
 
     .feature-number {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 900;
       background: linear-gradient(135deg, #0B7F88 0%, #F5A623 100%);
       -webkit-background-clip: text;
@@ -165,36 +139,17 @@
     }
 
     input, select, textarea {
-      transition: all 0.2s ease;
-    }
-
-    input:focus, select:focus, textarea:focus {
-      transform: scale(1.01);
-    }
-
-    .success-checkmark {
-      animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    @keyframes scaleIn {
-      from {
-        transform: scale(0.8);
-        opacity: 0;
-      }
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
+      transition: all 0.15s ease;
     }
   </style>
 </head>
 <body class="bg-slate-50 antialiased selection:bg-[#0B7F88] selection:text-white">
 
 <!-- HEADER / NAVIGATION -->
-<header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-40 border-b border-slate-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-    <button onclick="navigateTo('home')" class="text-lg sm:text-xl font-black tracking-tight text-[#0B7F88] hover:opacity-85 transition cursor-pointer flex items-center gap-2">
-      <div class="bg-gradient-to-br from-[#0B7F88] to-[#065A63] text-white p-2 rounded-lg text-xs font-bold">
+<header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-40 border-b border-slate-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
+    <button onclick="navigateTo('home')" class="text-base sm:text-lg font-black tracking-tight text-[#0B7F88] hover:opacity-85 transition cursor-pointer flex items-center gap-2">
+      <div class="bg-gradient-to-br from-[#0B7F88] to-[#065A63] text-white p-1.5 rounded-lg text-xs font-bold">
         ZBS
       </div>
       <span class="hidden sm:inline">ZAIRASBREAD</span>
@@ -202,43 +157,43 @@
     
     <!-- Desktop Menu -->
     <nav class="hidden lg:flex space-x-1 text-slate-600 font-medium text-sm">
-      <button onclick="navigateTo('home')" class="px-3 py-2 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Home</button>
-      <button onclick="smoothScrollToId('about')" class="px-3 py-2 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">About</button>
-      <button onclick="smoothScrollToId('services')" class="px-3 py-2 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Services</button>
-      <button onclick="navigateTo('booking')" class="px-3 py-2 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Book</button>
-      <button onclick="navigateTo('contact')" class="px-3 py-2 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Contact</button>
+      <button onclick="navigateTo('home')" class="px-3 py-1.5 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Home</button>
+      <button onclick="smoothScrollToId('about')" class="px-3 py-1.5 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">About</button>
+      <button onclick="smoothScrollToId('services')" class="px-3 py-1.5 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Services</button>
+      <button onclick="navigateTo('booking')" class="px-3 py-1.5 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Book</button>
+      <button onclick="navigateTo('contact')" class="px-3 py-1.5 hover:text-[#0B7F88] hover:bg-slate-100 rounded-lg transition">Contact</button>
     </nav>
 
     <!-- Book Now Button (Desktop) -->
-    <button onclick="navigateTo('booking')" class="hidden md:inline-flex btn-accent shadow-lg">
+    <button onclick="navigateTo('booking')" class="hidden md:inline-flex btn-accent shadow-sm py-2 px-4 text-xs font-bold uppercase tracking-wider">
       Book Now
     </button>
 
     <!-- Mobile Menu Button -->
-    <button id="menu-btn" class="lg:hidden text-slate-600 hover:text-[#0B7F88] p-2 rounded-lg hover:bg-slate-100 transition">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <button id="menu-btn" class="lg:hidden text-slate-600 hover:text-[#0B7F88] p-1.5 rounded-lg hover:bg-slate-100 transition">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
   </div>
 
   <!-- Mobile Menu -->
-  <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-2 shadow-lg">
-    <button onclick="navigateTo('home')" class="block w-full text-left px-3 py-2.5 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition">Home</button>
-    <button onclick="smoothScrollToId('about')" class="block w-full text-left px-3 py-2.5 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition">About</button>
-    <button onclick="smoothScrollToId('services')" class="block w-full text-left px-3 py-2.5 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition">Services</button>
-    <button onclick="navigateTo('booking')" class="block w-full text-left px-3 py-2.5 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition">Book</button>
-    <button onclick="navigateTo('contact')" class="block w-full text-left px-3 py-2.5 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition">Contact</button>
-    <div class="pt-3 border-t border-slate-200 mt-3">
-      <button onclick="navigateTo('booking')" class="w-full btn-accent text-center font-bold">Book Now</button>
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-1 shadow-lg">
+    <button onclick="navigateTo('home')" class="block w-full text-left px-3 py-2 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition text-sm">Home</button>
+    <button onclick="smoothScrollToId('about')" class="block w-full text-left px-3 py-2 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition text-sm">About</button>
+    <button onclick="smoothScrollToId('services')" class="block w-full text-left px-3 py-2 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition text-sm">Services</button>
+    <button onclick="navigateTo('booking')" class="block w-full text-left px-3 py-2 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition text-sm">Book</button>
+    <button onclick="navigateTo('contact')" class="block w-full text-left px-3 py-2 rounded-lg font-medium text-slate-600 hover:bg-slate-50 hover:text-[#0B7F88] transition text-sm">Contact</button>
+    <div class="pt-2 border-t border-slate-200 mt-2">
+      <button onclick="navigateTo('booking')" class="w-full btn-accent text-center font-bold text-xs py-2">Book Now</button>
     </div>
   </div>
 </header>
 
 <!-- FLOATING WHATSAPP BUTTON -->
-<a href="https://wa.me/27609432410?text=Hello%20Zairasbread%20Shuttle%20Services%2C%20I%20would%20like%20to%20enquire%20about%20your%20shuttle%20services." target="_blank" rel="noopener noreferrer" class="whatsapp-float">
-  <button class="bg-[#25D366] text-white p-4 rounded-full shadow-xl hover:scale-115 transition flex items-center justify-center ring-4 ring-white ring-offset-2 ring-offset-slate-50" title="WhatsApp Support" aria-label="Contact us on WhatsApp">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+<a href="https://wa.me/27609432410?text=Hello%20Zairasbread%20Shuttle%20Services%2C%20I%20would%20like%20to%20enquire%20about%20your%20shuttle%20services."[cite: 1] target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+  <button class="bg-[#25D366] text-white p-3.5 rounded-full shadow-lg hover:scale-110 transition flex items-center justify-center ring-4 ring-white ring-offset-1 ring-offset-slate-50" title="WhatsApp Support" aria-label="Contact us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.781 1.226l-.339-.172-3.522.666.679-2.482-.161-.256a9.793 9.793 0 011.488-4.661 9.965 9.965 0 0115.275 1.996 9.8 9.8 0 011.405 5.195c0 5.487-4.144 9.957-9.332 9.957a9.9 9.9 0 01-4.773-1.216l-.356-.187-3.686.702.707-2.582-.165-.254a9.758 9.758 0 01-.468-4.773A9.763 9.763 0 0112.051 3.979z"/>
     </svg>
   </button>
@@ -250,26 +205,26 @@
 <div id="home" class="page-section active">
 
   <!-- HERO SECTION -->
-  <section class="hero-gradient text-white py-28 sm:py-40 lg:py-48 relative">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center relative z-10">
-      <div class="inline-flex items-center gap-2 bg-white/10 text-[#F5A623] px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase backdrop-blur-md mb-8 border border-white/15">
-        <span class="w-2 h-2 rounded-full bg-[#F5A623] animate-pulse"></span> 
+  <section class="hero-bg text-white py-16 sm:py-24 lg:py-28 relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+      <div class="inline-flex items-center gap-2 bg-white/10 text-[#F5A623] px-3.5 py-1 rounded-full text-xs font-bold tracking-wider uppercase backdrop-blur-md mb-4 border border-white/15">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#F5A623] animate-pulse"></span> 
         Professional Transport Solutions
       </div>
       
-      <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
         Your Journey, <span class="text-[#F5A623]">Our Priority</span>
       </h1>
       
-      <p class="text-lg sm:text-xl text-slate-100 max-w-2xl mx-auto mb-12 font-normal leading-relaxed">
-        Safe, comfortable, and reliable shuttle services for airport transfers, corporate transport, groups, and special occasions across South Africa.
+      <p class="text-sm sm:text-base text-slate-100 max-w-xl mx-auto mb-8 font-normal leading-relaxed">
+        Safe, comfortable, and reliable shuttle services for airport transfers, corporate transport, groups, and special occasions across South Africa[cite: 1].
       </p>
       
-      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <button onclick="navigateTo('booking')" class="w-full sm:w-auto btn-accent text-lg px-8 py-4 rounded-xl shadow-xl">
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+        <button onclick="navigateTo('booking')" class="w-full sm:w-auto btn-accent text-sm px-6 py-3 rounded-lg shadow-md">
           Book a Shuttle
         </button>
-        <button onclick="navigateTo('contact')" class="w-full sm:w-auto btn-secondary text-lg px-8 py-4 rounded-xl">
+        <button onclick="navigateTo('contact')" class="w-full sm:w-auto btn-secondary text-sm px-6 py-3 rounded-lg">
           Contact Us
         </button>
       </div>
@@ -277,182 +232,199 @@
   </section>
 
   <!-- QUICK BOOKING CTA -->
-  <section class="py-20 sm:py-24 bg-white border-b border-slate-100">
-    <div class="max-w-3xl mx-auto px-4 text-center">
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Planning Your Next Trip?</h2>
-      <p class="text-slate-600 mb-10 text-base sm:text-lg leading-relaxed">
-        Tell us where you're going, when you need to travel, and how many passengers. Our team will get back to you with available options and a quotation within 2 hours.
+  <section class="py-12 sm:py-16 bg-white border-b border-slate-100">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">Planning Your Next Trip?</h2>
+      <p class="text-slate-600 mb-6 text-sm sm:text-base leading-relaxed">
+        Tell us where you are going, when you need to travel, and how many passengers. Our team will get back to you with available options and a quotation within 2 hours.
       </p>
-      <button onclick="navigateTo('booking')" class="btn-primary text-lg px-10 py-4 rounded-xl shadow-lg">
+      <button onclick="navigateTo('booking')" class="btn-primary text-sm px-8 py-3 rounded-lg shadow-md">
         Request a Booking →
       </button>
     </div>
   </section>
 
   <!-- ABOUT SECTION -->
-  <section id="about" class="py-24 sm:py-32 bg-slate-50">
-    <div class="max-w-4xl mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4">About Zairasbread</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
+  <section id="about" class="py-12 sm:py-20 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-2">About Zairasbread</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
       </div>
       
-      <div class="glass-card p-10 sm:p-14 rounded-2xl shadow-sm border border-slate-200/60">
-        <p class="text-slate-700 text-lg leading-relaxed mb-8">
-          Zairasbread Shuttle Services is committed to providing <strong>top-notch transportation</strong> for individuals, groups, corporate clients, and tourists across South Africa. Whether you're heading to the airport, exploring breathtaking destinations, attending corporate events, or enjoying a night out, our professional drivers and well-maintained vehicles ensure a smooth, comfortable, and safe journey every time.
-        </p>
-        <p class="text-slate-700 text-lg leading-relaxed">
-          We understand that reliable transport is more than just getting from point A to point B—it's about <strong>trust, punctuality, and comfort</strong>. That's why we've built our reputation on delivering dependable service that you can count on.
-        </p>
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="glass-card p-6 sm:p-8 rounded-xl shadow-sm border border-slate-200/60">
+          <p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-4">
+            Zairasbread Shuttle Services is committed to providing <strong>top-notch transportation</strong> for individuals, groups, corporate clients, and tourists across South Africa[cite: 1]. Whether you are heading to the airport, exploring breathtaking destinations, attending corporate events, or enjoying a night out, our professional drivers and well-maintained vehicles ensure a smooth, comfortable, and safe journey every time.
+          </p>
+          <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
+            We understand that reliable transport is more than just getting from point A to point B—it is about <strong>trust, punctuality, and comfort</strong>. That is why we have built our reputation on delivering dependable service that you can count on[cite: 1].
+          </p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80" alt="Professional vehicle driving on road" class="rounded-xl shadow-md w-full h-72 object-cover" />
+        </div>
       </div>
     </div>
   </section>
 
   <!-- WHY CHOOSE US -->
-  <section id="why-us" class="py-24 sm:py-32 bg-white">
+  <section id="why-us" class="py-12 sm:py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-20">
-        <h2 class="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4">Why Choose Us</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
+      <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-2">Why Choose Us</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-lg transition border border-slate-100 group">
-          <div class="feature-number mb-4 group-hover:scale-110 transition transform origin-left">01</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Reliable Service</h3>
-          <p class="text-slate-600 text-base leading-relaxed">We value punctuality and dependable transport. Your schedule is our schedule.</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-md transition border border-slate-100 group">
+          <div class="feature-number mb-2 group-hover:scale-105 transition transform origin-left">01</div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Reliable Service</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">We value punctuality and dependable transport. Your schedule is our schedule.</p>
         </div>
 
-        <div class="p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-lg transition border border-slate-100 group">
-          <div class="feature-number mb-4 group-hover:scale-110 transition transform origin-left">02</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Professional Drivers</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Experienced and customer-focused drivers trained in safety and hospitality.</p>
+        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-md transition border border-slate-100 group">
+          <div class="feature-number mb-2 group-hover:scale-105 transition transform origin-left">02</div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Professional Drivers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Experienced and customer-focused drivers trained in safety and hospitality.</p>
         </div>
 
-        <div class="p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-lg transition border border-slate-100 group">
-          <div class="feature-number mb-4 group-hover:scale-110 transition transform origin-left">03</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Comfortable Travel</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Travel in clean, modern, and well-maintained vehicles equipped with amenities.</p>
+        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-md transition border border-slate-100 group">
+          <div class="feature-number mb-2 group-hover:scale-105 transition transform origin-left">03</div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Comfortable Travel</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Travel in clean, modern, and well-maintained vehicles equipped with amenities.</p>
         </div>
 
-        <div class="p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-lg transition border border-slate-100 group">
-          <div class="feature-number mb-4 group-hover:scale-110 transition transform origin-left">04</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Flexible Solutions</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Transport options designed around your journey—one-way, round-trip, or customized routes.</p>
+        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-md transition border border-slate-100 group">
+          <div class="feature-number mb-2 group-hover:scale-105 transition transform origin-left">04</div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Flexible Solutions</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Transport options designed around your journey—one-way, round-trip, or customized routes.</p>
         </div>
 
-        <div class="p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-lg transition border border-slate-100 group">
-          <div class="feature-number mb-4 group-hover:scale-110 transition transform origin-left">05</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Easy Booking</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Request your transport through our website, WhatsApp, or email—no complicated process.</p>
+        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-md transition border border-slate-100 group">
+          <div class="feature-number mb-2 group-hover:scale-105 transition transform origin-left">05</div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Easy Booking</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Request your transport through our website, WhatsApp, or email—no complicated process[cite: 1].</p>
         </div>
 
-        <div class="p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-lg transition border border-slate-100 group">
-          <div class="feature-number mb-4 group-hover:scale-110 transition transform origin-left">06</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Customer Focused</h3>
-          <p class="text-slate-600 text-base leading-relaxed">We put your journey first and strive to exceed expectations every time.</p>
+        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100/50 hover:shadow-md transition border border-slate-100 group">
+          <div class="feature-number mb-2 group-hover:scale-105 transition transform origin-left">06</div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Customer Focused</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">We put your journey first and strive to exceed expectations every time.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SERVICES SECTION -->
-  <section id="services" class="py-24 sm:py-32 bg-slate-50">
+  <section id="services" class="py-12 sm:py-20 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-20">
-        <h2 class="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4">Our Services</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
+      <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-2">Our Services</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-8 rounded-2xl service-card border border-slate-200/80 shadow-sm">
-          <div class="w-14 h-14 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-xl flex items-center justify-center mb-6 text-white text-xl">✈️</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Airport Transfers</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Reliable transportation to and from airports. On-time pickups and drop-offs for hassle-free travel.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl service-card border border-slate-200/80 shadow-sm">
+          <div class="w-10 h-10 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-lg flex items-center justify-center mb-4 text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Airport Transfers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Reliable transportation to and from airports. On-time pickups and drop-offs for hassle-free travel.</p>
         </div>
 
-        <div class="bg-white p-8 rounded-2xl service-card border border-slate-200/80 shadow-sm">
-          <div class="w-14 h-14 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-xl flex items-center justify-center mb-6 text-white text-xl">💼</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Corporate Transport</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Professional transport solutions for companies, employees, business events, and corporate functions.</p>
+        <div class="bg-white p-6 rounded-xl service-card border border-slate-200/80 shadow-sm">
+          <div class="w-10 h-10 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-lg flex items-center justify-center mb-4 text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Corporate Transport</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Professional transport solutions for companies, employees, business events, and corporate functions.</p>
         </div>
 
-        <div class="bg-white p-8 rounded-2xl service-card border border-slate-200/80 shadow-sm">
-          <div class="w-14 h-14 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-xl flex items-center justify-center mb-6 text-white text-xl">👥</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Group Transfers</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Comfortable transportation for groups, organizations, teams, and special occasions.</p>
+        <div class="bg-white p-6 rounded-xl service-card border border-slate-200/80 shadow-sm">
+          <div class="w-10 h-10 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-lg flex items-center justify-center mb-4 text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Group Transfers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Comfortable transportation for groups, organizations, teams, and special occasions.</p>
         </div>
 
-        <div class="bg-white p-8 rounded-2xl service-card border border-slate-200/80 shadow-sm">
-          <div class="w-14 h-14 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-xl flex items-center justify-center mb-6 text-white text-xl">🎉</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Events & Functions</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Transport solutions for weddings, conferences, parties, celebrations, and special events.</p>
+        <div class="bg-white p-6 rounded-xl service-card border border-slate-200/80 shadow-sm">
+          <div class="w-10 h-10 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-lg flex items-center justify-center mb-4 text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Events & Functions</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Transport solutions for weddings, conferences, parties, celebrations, and special events.</p>
         </div>
 
-        <div class="bg-white p-8 rounded-2xl service-card border border-slate-200/80 shadow-sm">
-          <div class="w-14 h-14 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-xl flex items-center justify-center mb-6 text-white text-xl">🛣️</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Long-Distance Transfers</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Convenient and comfortable transport between cities and destinations across South Africa.</p>
+        <div class="bg-white p-6 rounded-xl service-card border border-slate-200/80 shadow-sm">
+          <div class="w-10 h-10 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-lg flex items-center justify-center mb-4 text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Long-Distance Transfers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Convenient and comfortable transport between cities and destinations across South Africa[cite: 1].</p>
         </div>
 
-        <div class="bg-white p-8 rounded-2xl service-card border border-slate-200/80 shadow-sm">
-          <div class="w-14 h-14 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-xl flex items-center justify-center mb-6 text-white text-xl">🚐</div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Private Shuttle Hire</h3>
-          <p class="text-slate-600 text-base leading-relaxed">Dedicated vehicles and drivers for private trips and customized transport requirements.</p>
+        <div class="bg-white p-6 rounded-xl service-card border border-slate-200/80 shadow-sm">
+          <div class="w-10 h-10 bg-gradient-to-br from-[#0B7F88] to-[#F5A623] rounded-lg flex items-center justify-center mb-4 text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Private Shuttle Hire</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Dedicated vehicles and drivers for private trips and customized transport requirements.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SERVICE AREAS & QUOTATION INFO -->
-  <section class="py-24 sm:py-32 bg-white">
+  <section class="py-12 sm:py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-20">
-        <h2 class="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4">Where We Operate</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
+      <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-2">Where We Operate</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-[#0B7F88] to-[#F5A623] mx-auto rounded-full"></div>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-12">
+      <div class="grid md:grid-cols-2 gap-8 items-stretch">
         <!-- SERVICE AREAS -->
-        <div class="bg-gradient-to-br from-slate-50 to-white rounded-2xl p-10 border border-slate-200">
-          <h3 class="text-2xl font-bold text-[#0B7F88] mb-8">Service Areas</h3>
-          <ul class="space-y-4">
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>Nelspruit (Mbombela)
+        <div class="bg-gradient-to-br from-slate-50 to-white rounded-xl p-8 border border-slate-200">
+          <h3 class="text-xl font-bold text-[#0B7F88] mb-6">Service Areas</h3>
+          <ul class="space-y-3">
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>Nelspruit (Mbombela)
             </li>
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>White River
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>White River
             </li>
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>Kruger Airport
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>Kruger Airport
             </li>
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>Panorama Route
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>Panorama Route
             </li>
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>Hoedspruit
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>Hoedspruit
             </li>
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>Kruger National Park
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>Kruger National Park
             </li>
-            <li class="flex items-center text-slate-700 text-base font-medium">
-              <span class="w-2 h-2 bg-[#F5A623] rounded-full mr-3"></span>Surrounding Areas & Beyond
+            <li class="flex items-center text-slate-700 text-sm font-medium">
+              <span class="w-1.5 h-1.5 bg-[#F5A623] rounded-full mr-3"></span>Surrounding Areas & Beyond
             </li>
           </ul>
         </div>
 
         <!-- QUOTATION PROCESS -->
-        <div class="bg-gradient-to-br from-slate-50 to-white rounded-2xl p-10 border border-slate-200 flex flex-col justify-between">
+        <div class="bg-gradient-to-br from-slate-50 to-white rounded-xl p-8 border border-slate-200 flex flex-col justify-between">
           <div>
-            <h3 class="text-2xl font-bold text-[#0B7F88] mb-6">Custom Pricing & Quotations</h3>
-            <p class="text-slate-600 text-base leading-relaxed mb-6">
+            <h3 class="text-xl font-bold text-[#0B7F88] mb-4">Custom Pricing & Quotations</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
               All trip pricing is determined specifically by the required route, distance, group size, and transport specifications. 
             </p>
-            <p class="text-slate-600 text-base leading-relaxed mb-8">
+            <p class="text-slate-600 text-sm leading-relaxed mb-6">
               Simply submit a booking request with your journey details, and our team will send a formal quotation directly to you.
             </p>
           </div>
-          <button onclick="navigateTo('booking')" class="btn-accent text-center font-bold py-3.5 rounded-xl w-full">
+          <button onclick="navigateTo('booking')" class="btn-accent text-center font-bold py-3 rounded-lg w-full text-sm">
             Request a Booking & Quote
           </button>
         </div>
@@ -466,107 +438,106 @@
 <div id="booking" class="page-section">
 
   <!-- BOOKING HERO -->
-  <section class="hero-gradient text-white py-20 sm:py-28">
-    <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
-      <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Book Your Shuttle</h1>
-      <p class="text-slate-100 text-lg">Complete the booking form below. Pricing will be determined by your trip requirements and a quotation sent after booking is made.</p>
+  <section class="hero-bg text-white py-14 sm:py-20">
+    <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
+      <h1 class="text-3xl sm:text-4xl font-extrabold mb-2">Book Your Shuttle</h1>
+      <p class="text-slate-100 text-sm">Complete the booking form below. Pricing will be determined by your trip requirements and a quotation sent after booking is made.</p>
     </div>
   </section>
 
   <!-- BOOKING FORM -->
-  <section class="py-20 sm:py-32 bg-slate-50">
-    <div class="max-w-3xl mx-auto px-4">
+  <section class="py-12 sm:py-20 bg-slate-50">
+    <div class="max-w-2xl mx-auto px-4">
       
-      <!-- FORMSPREE ACTION LINK CONNECTED -->
-      <form id="bookingForm" action="https://formspree.io/f/xrpeakwe" method="POST" class="bg-white p-8 sm:p-12 rounded-2xl shadow-sm border border-slate-200">
+      <form id="bookingForm" action="https://formspree.io/f/xrpeakwe" method="POST" class="bg-white p-6 sm:p-10 rounded-xl shadow-sm border border-slate-200">
         
         <!-- STEP 1: CUSTOMER DETAILS -->
-        <div class="mb-12">
-          <div class="flex items-center mb-8">
-            <span class="w-10 h-10 rounded-lg bg-gradient-to-br from-[#0B7F88] to-[#065A63] text-white font-bold flex items-center justify-center text-base shadow-sm">1</span>
-            <h2 class="text-2xl font-bold text-slate-900 ml-4">Customer Details</h2>
+        <div class="mb-8">
+          <div class="flex items-center mb-6">
+            <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-[#0B7F88] to-[#065A63] text-white font-bold flex items-center justify-center text-sm shadow-sm">1</span>
+            <h2 class="text-xl font-bold text-slate-900 ml-3">Customer Details</h2>
           </div>
 
-          <div class="grid md:grid-cols-2 gap-6">
+          <div class="grid md:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Full Name *</label>
-              <input type="text" name="Full Name" id="fullName" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="Your full name" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Full Name *</label>
+              <input type="text" name="Full Name" id="fullName" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="Your full name" required>
             </div>
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Company/Organization</label>
-              <input type="text" name="Company" id="company" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="Your company (optional)">
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Company/Organization</label>
+              <input type="text" name="Company" id="company" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="Your company (optional)">
             </div>
           </div>
 
-          <div class="grid md:grid-cols-2 gap-6 mt-6">
+          <div class="grid md:grid-cols-2 gap-4 mt-4">
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Mobile Number *</label>
-              <input type="tel" name="Phone" id="phone" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="060 943 2410" pattern="[0-9\s\-\+\(\)]+" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Mobile Number *</label>
+              <input type="tel" name="Phone" id="phone" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="060 943 2410" pattern="[0-9\s\-\+\(\)]+" required>
             </div>
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Email Address *</label>
-              <input type="email" name="Email" id="email" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="your.email@example.com" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Email Address *</label>
+              <input type="email" name="Email" id="email" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="your.email@example.com" required>
             </div>
           </div>
         </div>
 
         <!-- STEP 2: TRIP DETAILS -->
-        <div class="mb-12 pt-10 border-t border-slate-200">
-          <div class="flex items-center mb-8">
-            <span class="w-10 h-10 rounded-lg bg-gradient-to-br from-[#F5A623] to-[#e0951b] text-white font-bold flex items-center justify-center text-base shadow-sm">2</span>
-            <h2 class="text-2xl font-bold text-slate-900 ml-4">Trip Details</h2>
+        <div class="mb-8 pt-6 border-t border-slate-200">
+          <div class="flex items-center mb-6">
+            <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-[#F5A623] to-[#e0951b] text-white font-bold flex items-center justify-center text-sm shadow-sm">2</span>
+            <h2 class="text-xl font-bold text-slate-900 ml-3">Trip Details</h2>
           </div>
 
-          <div class="grid md:grid-cols-2 gap-6">
+          <div class="grid md:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Pick-up Location *</label>
-              <input type="text" name="Pick-up Location" id="pickupLocation" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="e.g., Nelspruit, Airport, Hotel" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Pick-up Location *</label>
+              <input type="text" name="Pick-up Location" id="pickupLocation" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="e.g., Nelspruit, Airport, Hotel" required>
             </div>
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Destination *</label>
-              <input type="text" name="Destination" id="destination" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="e.g., White River, Kruger, Home" required>
-            </div>
-          </div>
-
-          <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Pick-up Date *</label>
-              <input type="date" name="Pick-up Date" id="pickupDate" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" required>
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Pick-up Time *</label>
-              <input type="time" name="Pick-up Time" id="pickupTime" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Destination *</label>
+              <input type="text" name="Destination" id="destination" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="e.g., White River, Kruger, Home" required>
             </div>
           </div>
 
-          <div class="mt-6">
-            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-4">Trip Type *</label>
-            <div class="flex gap-8">
-              <label class="flex items-center cursor-pointer text-base font-medium text-slate-700 hover:text-[#0B7F88] transition">
-                <input type="radio" name="Trip Type" value="One-way" class="mr-3 w-5 h-5 text-[#0B7F88]" required checked> One-way
+          <div class="grid md:grid-cols-2 gap-4 mt-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Pick-up Date *</label>
+              <input type="date" name="Pick-up Date" id="pickupDate" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Pick-up Time *</label>
+              <input type="time" name="Pick-up Time" id="pickupTime" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" required>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Trip Type *</label>
+            <div class="flex gap-6">
+              <label class="flex items-center cursor-pointer text-sm font-medium text-slate-700 hover:text-[#0B7F88] transition">
+                <input type="radio" name="Trip Type" value="One-way" class="mr-2 w-4 h-4 text-[#0B7F88]" required checked> One-way
               </label>
-              <label class="flex items-center cursor-pointer text-base font-medium text-slate-700 hover:text-[#0B7F88] transition">
-                <input type="radio" name="Trip Type" value="Return" class="mr-3 w-5 h-5 text-[#0B7F88]"> Return
+              <label class="flex items-center cursor-pointer text-sm font-medium text-slate-700 hover:text-[#0B7F88] transition">
+                <input type="radio" name="Trip Type" value="Return" class="mr-2 w-4 h-4 text-[#0B7F88]"> Return
               </label>
             </div>
           </div>
 
-          <div id="returnFields" class="hidden mt-6">
-            <div class="grid md:grid-cols-2 gap-6">
+          <div id="returnFields" class="hidden mt-4">
+            <div class="grid md:grid-cols-2 gap-4">
               <div>
-                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Return Date *</label>
-                <input type="date" name="Return Date" id="returnDate" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition">
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Return Date *</label>
+                <input type="date" name="Return Date" id="returnDate" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm">
               </div>
               <div>
-                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Return Time *</label>
-                <input type="time" name="Return Time" id="returnTime" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition">
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Return Time *</label>
+                <input type="time" name="Return Time" id="returnTime" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm">
               </div>
             </div>
           </div>
 
-          <div class="mt-6">
-            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Number of Passengers *</label>
-            <select name="Passengers" id="passengers" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" required>
+          <div class="mt-4">
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Number of Passengers *</label>
+            <select name="Passengers" id="passengers" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" required>
               <option value="">Select number of passengers</option>
               <option value="1">1 Passenger</option>
               <option value="2">2 Passengers</option>
@@ -579,18 +550,18 @@
             </select>
           </div>
 
-          <div class="mt-6">
-            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Additional Notes / Special Requirements</label>
-            <textarea name="Notes" id="notes" rows="3" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="Any luggage, flight number, or specific instructions..."></textarea>
+          <div class="mt-4">
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Additional Notes / Special Requirements</label>
+            <textarea name="Notes" id="notes" rows="2" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="Any luggage, flight number, or specific instructions..."></textarea>
           </div>
         </div>
 
         <!-- SUBMIT BUTTON -->
-        <div class="text-center pt-6 border-t border-slate-200">
-          <button type="submit" class="w-full btn-accent text-lg py-4 rounded-xl shadow-lg">
+        <div class="text-center pt-4 border-t border-slate-200">
+          <button type="submit" class="w-full btn-accent text-sm py-3 rounded-lg shadow-md font-bold">
             Submit Booking Request
           </button>
-          <p class="text-xs text-slate-500 mt-4">
+          <p class="text-xs text-slate-500 mt-3">
             Need immediate assistance? Contact us directly via WhatsApp at <strong class="text-slate-700">060 943 2410</strong>.
           </p>
         </div>
@@ -606,85 +577,91 @@
 <div id="contact" class="page-section">
 
   <!-- CONTACT HERO -->
-  <section class="hero-gradient text-white py-20 sm:py-28">
-    <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
-      <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Get in Touch</h1>
-      <p class="text-slate-100 text-lg">We'd love to hear from you. Reach out for bookings, enquiries, or custom transport solutions.</p>
+  <section class="hero-bg text-white py-14 sm:py-20">
+    <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
+      <h1 class="text-3xl sm:text-4xl font-extrabold mb-2">Get in Touch</h1>
+      <p class="text-slate-100 text-sm">We would love to hear from you. Reach out for bookings, enquiries, or custom transport solutions.</p>
     </div>
   </section>
 
   <!-- CONTACT CONTENT -->
-  <section class="py-20 sm:py-32 bg-slate-50">
+  <section class="py-12 sm:py-20 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-2 gap-12">
+      <div class="grid md:grid-cols-2 gap-8 items-stretch">
         
         <!-- CONTACT INFO -->
-        <div class="bg-white p-8 sm:p-12 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+        <div class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between">
           <div>
-            <h2 class="text-2xl font-bold text-slate-900 mb-6">Contact Information</h2>
-            <p class="text-slate-600 mb-8 leading-relaxed">
+            <h2 class="text-xl font-bold text-slate-900 mb-4">Contact Information</h2>
+            <p class="text-slate-600 text-sm mb-6 leading-relaxed">
               Have questions about our routes, availability, or need a custom quote? Get in touch with our team using any of the channels below.
             </p>
 
-            <div class="space-y-6">
+            <div class="space-y-4">
               <div class="flex items-start">
-                <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-[#0B7F88] mr-4 shrink-0 text-xl">📞</div>
+                <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-[#0B7F88] mr-3 shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                </div>
                 <div>
-                  <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">Phone / WhatsApp</h3>
-                  <p class="text-slate-900 font-bold text-lg">060 943 2410</p>
+                  <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-0.5">Phone / WhatsApp</h3>
+                  <p class="text-slate-900 font-bold text-base">060 943 2410</p>
                 </div>
               </div>
 
               <div class="flex items-start">
-                <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-[#0B7F88] mr-4 shrink-0 text-xl">✉️</div>
+                <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-[#0B7F88] mr-3 shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
                 <div>
-                  <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">Email Address</h3>
-                  <p class="text-slate-900 font-bold text-lg">info@zairasbread.co.za</p>
+                  <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-0.5">Email Address</h3>
+                  <p class="text-slate-900 font-bold text-base">info@zairasbread.co.za</p>
                 </div>
               </div>
 
               <div class="flex items-start">
-                <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-[#0B7F88] mr-4 shrink-0 text-xl">📍</div>
+                <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-[#0B7F88] mr-3 shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                </div>
                 <div>
-                  <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">Location</h3>
-                  <p class="text-slate-900 font-bold text-lg">Nelspruit (Mbombela), Mpumalanga, South Africa</p>
+                  <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-0.5">Location</h3>
+                  <p class="text-slate-900 font-bold text-base">Nelspruit (Mbombela), Mpumalanga, South Africa</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="mt-12 pt-8 border-t border-slate-100">
-            <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4">Operating Hours</h3>
-            <p class="text-slate-700 font-medium">Monday – Sunday: <span class="text-slate-900 font-bold">24/7 Service & Support</span></p>
+          <div class="mt-8 pt-6 border-t border-slate-100">
+            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Operating Hours</h3>
+            <p class="text-slate-700 text-sm font-medium">Monday – Sunday: <span class="text-slate-900 font-bold">24/7 Service & Support</span></p>
           </div>
         </div>
 
         <!-- CONTACT FORM -->
-        <div class="bg-white p-8 sm:p-12 rounded-2xl border border-slate-200 shadow-sm">
-          <h2 class="text-2xl font-bold text-slate-900 mb-6">Send Us a Message</h2>
+        <div class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm">
+          <h2 class="text-xl font-bold text-slate-900 mb-4">Send Us a Message</h2>
           
-          <form id="contactForm" action="https://formspree.io/f/xrpeakwe" method="POST" class="space-y-6">
+          <form id="contactForm" action="https://formspree.io/f/xrpeakwe" method="POST" class="space-y-4">
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Your Name *</label>
-              <input type="text" name="Name" id="contactName" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="Your name" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Your Name *</label>
+              <input type="text" name="Name" id="contactName" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="Your name" required>
             </div>
 
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Email Address *</label>
-              <input type="email" name="Email" id="contactEmail" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="your.email@example.com" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Email Address *</label>
+              <input type="email" name="Email" id="contactEmail" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="your.email@example.com" required>
             </div>
 
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Phone Number *</label>
-              <input type="tel" name="Phone" id="contactPhone" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="060 943 2410" required>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Phone Number *</label>
+              <input type="tel" name="Phone" id="contactPhone" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="060 943 2410" required>
             </div>
 
             <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Message *</label>
-              <textarea name="Message" id="contactMessage" rows="4" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-base transition" placeholder="How can we help you today?" required></textarea>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Message *</label>
+              <textarea name="Message" id="contactMessage" rows="3" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B7F88] focus:bg-white text-sm" placeholder="How can we help you today?" required></textarea>
             </div>
 
-            <button type="submit" class="w-full btn-primary py-4 rounded-xl shadow-lg">
+            <button type="submit" class="w-full btn-primary py-3 rounded-lg shadow-md font-bold text-sm">
               Send Message
             </button>
           </form>
@@ -698,39 +675,39 @@
 
 <!-- SUCCESS MODAL -->
 <div id="successModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
-  <div class="bg-white rounded-2xl max-w-md w-full p-8 text-center shadow-2xl success-checkmark">
-    <div class="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold">
+  <div class="bg-white rounded-xl max-w-sm w-full p-6 text-center shadow-xl">
+    <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
       ✓
     </div>
-    <h3 class="text-2xl font-bold text-slate-900 mb-3">Request Submitted!</h3>
-    <p id="successMessage" class="text-slate-600 mb-8 leading-relaxed">
-      Thank you! Your booking request has been received. Our team will review your trip details and send a formal quotation shortly via phone or WhatsApp.
+    <h3 class="text-xl font-bold text-slate-900 mb-2">Request Submitted!</h3>
+    <p id="successMessage" class="text-slate-600 text-sm mb-6 leading-relaxed">
+      Thank you! Your booking request has been received. Our team will review your trip details and send a formal quotation shortly.
     </p>
-    <button onclick="closeSuccessModal()" class="w-full btn-primary py-3 rounded-xl">
+    <button onclick="closeSuccessModal()" class="w-full btn-primary py-2.5 rounded-lg text-sm">
       Back to Home
     </button>
   </div>
 </div>
 
 <!-- FOOTER -->
-<footer class="bg-slate-900 text-white py-16">
+<footer class="bg-slate-900 text-white py-10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
       <div class="md:col-span-2">
-        <div class="flex items-center gap-2 mb-4">
-          <div class="bg-gradient-to-br from-[#0B7F88] to-[#F5A623] text-white p-2 rounded-lg text-xs font-bold">
+        <div class="flex items-center gap-2 mb-3">
+          <div class="bg-gradient-to-br from-[#0B7F88] to-[#F5A623] text-white p-1.5 rounded-lg text-xs font-bold">
             ZBS
           </div>
-          <span class="font-extrabold tracking-tight text-lg">ZAIRASBREAD SHUTTLE SERVICES</span>
+          <span class="font-extrabold tracking-tight text-base">ZAIRASBREAD SHUTTLE SERVICES</span>
         </div>
-        <p class="text-slate-400 text-sm max-w-md leading-relaxed">
+        <p class="text-slate-400 text-xs sm:text-sm max-w-md leading-relaxed">
           Safe, comfortable, and reliable passenger transport and shuttle solutions across Nelspruit and South Africa. Your journey, our priority.
         </p>
       </div>
 
       <div>
-        <h4 class="text-sm font-bold uppercase tracking-wider text-slate-300 mb-4">Quick Links</h4>
-        <ul class="space-y-2 text-sm text-slate-400">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3">Quick Links</h4>
+        <ul class="space-y-1.5 text-xs sm:text-sm text-slate-400">
           <li><button onclick="navigateTo('home')" class="hover:text-white transition">Home</button></li>
           <li><button onclick="smoothScrollToId('about')" class="hover:text-white transition">About Us</button></li>
           <li><button onclick="smoothScrollToId('services')" class="hover:text-white transition">Our Services</button></li>
@@ -740,8 +717,8 @@
       </div>
 
       <div>
-        <h4 class="text-sm font-bold uppercase tracking-wider text-slate-300 mb-4">Contact</h4>
-        <ul class="space-y-2 text-sm text-slate-400">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3">Contact</h4>
+        <ul class="space-y-1.5 text-xs sm:text-sm text-slate-400">
           <li>Phone: 060 943 2410</li>
           <li>Email: info@zairasbread.co.za</li>
           <li>Nelspruit, South Africa</li>
@@ -749,7 +726,7 @@
       </div>
     </div>
 
-    <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+    <div class="pt-6 border-t border-slate-800 text-center text-xs text-slate-500">
       &copy; <span id="currentYear"></span> Zairasbread Shuttle Services. All rights reserved.
     </div>
   </div>
@@ -757,10 +734,8 @@
 
 <!-- JAVASCRIPT -->
 <script>
-  // Set current year in footer
   document.getElementById('currentYear').textContent = new Date().getFullYear();
 
-  // Mobile Menu Toggle
   const menuBtn = document.getElementById('menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
 
@@ -768,7 +743,6 @@
     mobileMenu.classList.toggle('hidden');
   });
 
-  // Navigation Logic
   function navigateTo(pageId) {
     document.querySelectorAll('.page-section').forEach(section => {
       section.classList.remove('active');
@@ -802,7 +776,6 @@
     mobileMenu.classList.add('hidden');
   }
 
-  // Toggle Return Date Fields
   const tripTypeRadios = document.querySelectorAll('input[name="Trip Type"]');
   const returnFields = document.getElementById('returnFields');
   const returnDateInput = document.getElementById('returnDate');
@@ -822,7 +795,6 @@
     });
   });
 
-  // Booking Form Submission via Formspree AJAX
   const bookingForm = document.getElementById('bookingForm');
   bookingForm.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -844,7 +816,7 @@
 
       if (response.ok) {
         document.getElementById('successMessage').textContent = 
-          `Thank you, ${fullName}! Your booking request from ${pickup} to ${destination} on ${date} has been sent successfully to bookings@zairasbreadshuttle.co.za. Our team will contact you shortly with a customized quotation.`;
+          `Thank you, ${fullName}! Your booking request from ${pickup} to ${destination} on ${date} has been sent successfully. Our team will contact you shortly with a customized quotation.`;
         document.getElementById('successModal').classList.remove('hidden');
       } else {
         alert('There was a problem submitting your form. Please try again or reach out to us via WhatsApp.');
@@ -854,7 +826,6 @@
     }
   });
 
-  // Contact Form Submission via Formspree AJAX
   const contactForm = document.getElementById('contactForm');
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
