@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zairasbread Shuttle Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+<!-- HEADER -->
+<header class="bg-white shadow sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="#" class="text-2xl font-extrabold text-[#00a7b4]">ZAIRASBREAD SHUTTLE  </a>
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-6 text-gray-600 font-medium">
+      <a href="#about" class="hover:text-[#00a7b4]">About</a>
+      <a href="#services" class="hover:text-[#00a7b4]">Services</a>
+      <a href="#routes" class="hover:text-[#00a7b4]">Routes</a>
+      <a href="#contact" class="hover:text-[#00a7b4]">Contact</a>
+    </nav>
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn" class="md:hidden text-gray-600 hover:text-[#00a7b4]">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+    <a href="#about" class="block px-4 py-3 hover:bg-gray-100">About</a>
+    <a href="#services" class="block px-4 py-3 hover:bg-gray-100">Services</a>
+    <a href="#routes" class="block px-4 py-3 hover:bg-gray-100">Routes</a>
+    <a href="#contact" class="block px-4 py-3 hover:bg-gray-100">Contact</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-[#00a7b4] text-white text-center py-24">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Your Journey, Our Priority</h1>
+    <p class="text-lg md:text-xl mb-8">Safe, comfortable, and reliable shuttle services for all occasions.</p>
+    <a href="#contact"
+      class="bg-[#ff9933] hover:bg-orange-500 px-6 py-3 rounded-lg text-white font-semibold transition">
+      Book Now
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-16">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-6">About Us</h2>
+    <p class="text-gray-600 leading-relaxed">
+      Zairasbread Shuttle Services is committed to providing top-notch transportation for individuals, groups, and tourists.
+      Whether you’re heading to the airport, exploring breathtaking destinations, or enjoying a night out, our professional
+      drivers and well-maintained vehicles ensure a smooth journey every time.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#00a7b4] mb-2">Private Rides</h3>
+        <p class="text-gray-600">Exclusive transport tailored to your schedule.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#00a7b4] mb-2">Scenic Tours</h3>
+        <p class="text-gray-600">Guided tours to iconic local attractions.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#00a7b4] mb-2">Airport Pickups</h3>
+        <p class="text-gray-600">On-time arrivals to welcome you at the airport.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#00a7b4] mb-2">Airport Drop-offs</h3>
+        <p class="text-gray-600">Reliable service to get you to your flight on time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROUTES -->
+<section id="routes" class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Travel Routes & Local Rides</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-xl font-semibold mb-4">Travel Routes</h3>
+        <ul class="list-disc list-inside text-gray-600 space-y-2">
+          <li>Kruger Airport → Nelspruit (Mbombela)</li>
+          <li>Malelane | Hoedspruit | Kruger National Park</li>
+          <li>Panorama Route & Surroundings</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-xl font-semibold mb-4">Local Rides</h3>
+        <ul class="list-disc list-inside text-gray-600 space-y-2">
+          <li>Nelspruit → White River <span class="text-[#ff9933] font-bold">R280</span></li>
+          <li>Msholozi → White River <span class="text-[#ff9933] font-bold">R160</span></li>
+          <li>Msholozi → Nelspruit <span class="text-[#ff9933] font-bold">R250</span></li>
+          <li>Msholozi → River <span class="text-[#ff9933] font-bold">R200</span></li>
+          <li>White River → River <span class="text-[#ff9933] font-bold">R220</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+    <p class="text-gray-600 mb-8">Book your ride or ask us a question we're here to help</p>
+    <div class="space-y-4 text-lg">
+      <p class="flex justify-center items-center space-x-2">
+        <span class="font-semibold">Phone:</span> <a href="tel:0609432410" class="text-[#00a7b4] hover:underline">060 943 2410</a>
+      </p>
+      <p class="flex justify-center items-center space-x-2">
+        <span class="font-semibold">Email:</span> <a href="mailto:info@zairasbreadshuttles.co.za" class="text-[#00a7b4] hover:underline">info@zairasbreadshuttles.co.za</a>
+      </p>
+      <p>
+        <a href="https://wa.me/27609432410" target="_blank"
+          class="inline-block bg-[#25D366] text-white px-5 py-2 rounded-lg font-semibold hover:scale-105 transition">
+          WhatsApp Us
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-6">
+  <div class="text-center text-gray-400">&copy; 2025 Zairasbread Shuttle Services. All Rights Reserved.</div>
+</footer>
+
+<!-- JS for Mobile Menu -->
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
